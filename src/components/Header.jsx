@@ -4,8 +4,7 @@ import Profile from "./profile.jsx"
 export default function Header() {
     return (
     <>
-    <h2>I AM HEADER</h2>
-    <Profile/>
+    <h1>JERSEY</h1>
     </>
     )
 

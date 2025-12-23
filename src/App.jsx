@@ -2,9 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-
-import Header from "../src/components/header.jsx"
-import Hero from "../src/components/hero.jsx"
+import Header from "../src/components/Header.jsx"
+import Hero from "../src/components/Hero.jsx"
+import Profile from './components/profile.jsx'
 
 
 
@@ -21,6 +21,7 @@ function App() {
    <>
     <Header/>
      <Hero />
+     <Profile/>
   </>
   )
 }
