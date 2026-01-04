@@ -5,6 +5,9 @@ import './App.css'
 import Header from "../src/components/Header.jsx"
 import Hero from "../src/components/Hero.jsx"
 import Profile from './components/profile.jsx'
+import Salaar_header from './components/Salaar_header.jsx'
+import Salaar_hero from './components/Salaar_hero.jsx'
+import Salaar_profile from './components/Salaar_profile.jsx'
 
 
 
@@ -22,6 +25,9 @@ function App() {
     <Header/>
      <Hero />
      <Profile/>
+     <Salaar_header/>
+     <Salaar_hero/>
+     <Salaar_profile/>
   </>
   )
 }
